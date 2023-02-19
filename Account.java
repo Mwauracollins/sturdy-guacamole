@@ -87,7 +87,7 @@ public class Account {
         }
         public void deposit(float amount){
             //Enter the period of time in months
-            System.out.println("You have deposited {amount} to a fixed depo for {time} months");
+            System.out.println("You have deposited + amount + to a fixed depo for + time + months");
             
             }
             public float finalBalance(){
