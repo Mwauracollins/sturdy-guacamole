@@ -44,8 +44,20 @@ public class Demo{
                 
 
             }
-            
 
+
+
+    }
+    class CurrentAccount extends Account{
+        private float balance;
+
+        public CurrentAccount(int accountNumber, float balance){
+            super(accountNumber, "CurrentAccount", balance);
+            this.balance = balance;
+        }
+        public void sendMoney(){
+
+        }
 
     }
 }
